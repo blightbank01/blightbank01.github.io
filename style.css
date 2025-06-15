@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #002f6c;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-btn {
+  background: #e31837;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437f2?fit=crop&w=1400&q=80') no-repeat center center/cover;
+  color: white;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero .cta {
+  background: #e31837;
+  padding: 12px 24px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+  background: white;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+footer {
+  background: #002f6c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
